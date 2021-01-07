@@ -24,5 +24,21 @@ body{
 }    
 .textCenter {
     text-align: center;
-}    
+}  
+.carousel-inner img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 200px;
+}
+#carousel_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    
+}
 
