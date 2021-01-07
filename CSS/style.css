@@ -58,12 +58,15 @@ body{
 
 /* --------------------- */ 
 .col-sm-3 img{
-    border-radius: 20px;
-}
+    border-radius: 20px:}
+
+/* --------------------- */ 
 .space_50px{
     display: flex;
     flex-direction: row;
-    margin: 50px;
-}
+    margin: 50px;}
+
+/* --------------------- */ 
+
 
 
