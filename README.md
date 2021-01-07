@@ -1,4 +1,4 @@
 # tightie-whities
 /just started
-/Not a completed
+/Not completed
 /Pls do not judge
