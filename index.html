@@ -19,10 +19,9 @@
     
 </head>
 <body>
-  <div class="container-fluid">
+    <div class="container-fluid">
       <div class="jumbotron text-center">
         <h1>Tighty Whities</h1>
-
       </div>
       <!-- Navigation Bar Satart-->
       <nav class="navbar navbar-inverse">
@@ -41,7 +40,6 @@
       <!--Bootstrap Carousel Plugin start-->
       <div class="container" id="container_div">
         <div class="carousel" id="carousel_div">  
-        
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -49,22 +47,20 @@
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
-        
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
                 <img src="images/img17.jpg" alt="T-shirt">
               </div>
-        
+              <!--*****-->
               <div class="item">
                 <img src="images/img18.jpg" alt="T-shirt">
               </div>
-            
+              <!--*****-->
               <div class="item">
                 <img src="images/img19.jpg" alt="T-shirt">
               </div>
             </div>
-        
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
               <span class="glyphicon glyphicon-chevron-left"></span>
@@ -79,35 +75,27 @@
       </div>
       <!-- Bootstrap Carousel Plugin finished -->
       <!------------------------------------------------------------->
-      <article class="ImgContainer">
-          <div class="ImgPosition">
-              <img src="images/img1.jpg"/>
-              <img src="images/img2.jpg"/>
-              <img src="images/img3.jpg"/>
-              <img src="images/img4.jpg"/>
+      <!-- Bootstrap Plugin for Photo Galary start -->
+      <div class="container-fluid text-center">
+        <h3>Photo Galary</h3>
+        <div class="row">
+          <div class="col-sm-4 img-responsive">
+            <p>img1</p>
+            <img src="images/img1.jpg" alt="Image">
           </div>
-          <br>
-          <div class="ImgPosition">
-              <img src="images/img5.jpg"/>
-              <img src="images/img6.jpg" />
-              <img src="images/img7.jpg"/>
-              <img src="images/img8.jpg"/>
+          <div class="col-sm-4 img-responsive">
+            <p>img2</p>
+            <img src="images/img2.jpg" alt="Image">
           </div>
-          <br>
-          <div class="ImgPosition">
-              <img src="images/img9.jpg"/>
-              <img src="images/img10.jpg"/>
-              <img src="images/img11.jpg"/>
-              <img src="images/img12.jpg"/>
+          <div class="col-sm-4 img-responsive">
+            <p>img3</p>
+            <img src="images/img3.jpg" alt="Image">
           </div>
-          <br>
-          <div class="ImgPosition">
-              <img src="images/img13.jpg"/>
-              <img src="images/img14.jpg"/>
-              <img src="images/img15.jpg"/>
-              <img src="images/img16.jpg"/>
-          </div>
-      </article>
+        </div>
+      </div>
+
+
+      <!-- Bootstrap Plugin for Photo Galary finished -->
       <div class="row">
           <div class="textCenter col-md-12"> 
               123 Main Street Westport, CT 06880<br>
@@ -116,8 +104,8 @@
               All Rights Reserved
           </div>
       </div><!--row-->
-  </div><!--container-fluid-->  
-  <!-- jQuery library -->
+    </div><!--container-fluid-->  
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
