@@ -2,8 +2,8 @@ body{
     font-family:Montserrat, sans-serif;
     line-height: 1.8;
     color: black;
-}
-
+    background-color: #fafafa;}
+ /* --------------------- */ 
 .page-header{
     display: flex;
     flex-direction: row;
@@ -12,33 +12,40 @@ body{
     letter-spacing: 10px;
     align-items: center;}
 
- 
-
-  /* --------------------- */ 
+/* --------------------- */ 
 #navbar-style{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    
-}    
+    align-items: center;}
+
+/* --------------------- */ 
 .textCenter {
-    text-align: center;
-}  
+    text-align: center;}  
+
+/* --------------------- */ 
 .carousel-inner img{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 900px;
-    height: 200px;
-}
+    height: 200px;}
+
+/* --------------------- */ 
 #carousel_div{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 900px;
+    width: 900px;}
+
+/* --------------------- */ 
+#container_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;}
     
-}
+/* --------------------- */ 
 
