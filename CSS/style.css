@@ -1,8 +1,11 @@
 body{
     font-family: "Jost", sans-serif;
-    line-height: 1.8;
+    font-size: 1.6rem;
     color:#4c4f52;
-    background-color:#f9fbfc;}
+    background-color:#f9fbfc;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.6;}
  /* --------------------- */ 
 .page-header{
     display: flex;
@@ -11,14 +14,12 @@ body{
     font-size: 40px;
     letter-spacing: 10px;
     align-items: center;}
-
 /* --------------------- */ 
 #navbar-style{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;}
-
 /* --------------------- */ 
 .textCenter {
     text-align: center;}  
@@ -31,7 +32,6 @@ body{
     justify-content: center;
     width: 900px;
     height: 200px;}
-
 /* --------------------- */ 
 #carousel_div{
     display: flex;
@@ -39,7 +39,6 @@ body{
     align-items: center;
     justify-content: center;
     width: 900px;}
-
 /* --------------------- */ 
 
 /* --------------------- */ 
@@ -48,20 +47,21 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;}
-
 /* --------------------- */ 
 #footer_box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
-    margin-bottom: 50px;}
-
+    background-color: #eeeeee;
+    padding:48px 48px 60px 60px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 25px;
+    border-radius: 5px;}
 /* --------------------- */ 
 .col-sm-3 img{
     border-radius: 20px;}
-
 /* --------------------- */ 
 .space_50px{
     display: flex;
