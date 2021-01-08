@@ -67,6 +67,28 @@ body{
     margin: 50px;}
 
 /* --------------------- */ 
+.side-nav {
+    grid-row: 2/4;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; }
+    .side-nav-text {
+      display: flex;
+      writing-mode: vertical-lr; }
+      .side-nav-text p {
+        padding: 3rem;
+        transform: rotate(180deg); }
+    .side-nav-icon {
+      display: flex;
+      flex-direction: column; }
+      .side-nav-icon i {
+        padding: 2rem;
+        transition: all .3s;
+        cursor: pointer; }
+        .side-nav-icon i:hover {
+          color: #ac9872; }
 
 
 
