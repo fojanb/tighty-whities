@@ -3,4 +3,4 @@
 /Not completed
 /Pls do not judge:)
 
-http://fojanb.github.io/tightie-whities/
+https://fojanb.github.io/tightie-whities/
