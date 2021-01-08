@@ -100,10 +100,13 @@ body{
         color: #ac9872; }
     #footer_box a:hover{
         color: #ac9872;}
-    @media only screen and (max-width:992px){
+    @media only screen and (max-width:994px){
         #footer_box{
             justify-content: center;
             text-align: center;
+            padding-left: 0px;
+            padding-right: 0px;
+            align-items: center;
         }
 
 
@@ -118,7 +121,10 @@ body{
     align-items: flex-end;}
     @media only screen and (max-width:992px){
         #icon_footer_box{
-            justify-content: center;
+            justify-content:space-between;
             text-align: center;
+            align-items: center;
+            padding-top: 0.6rem;
+            margin-left: 40%;
         }
     }
