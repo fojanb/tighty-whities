@@ -83,7 +83,7 @@ body{
     display: flex;
     flex-direction: row;}
 /* --------------------- */  
-.footer_box{
+#footer_box{
     display: flex;
     flex-direction: column;
     justify-content:left;
@@ -95,11 +95,19 @@ body{
     margin-bottom: 25px;
     border-radius: 5px;}
 
-    .footer_box i:hover {
+    #footer_box i:hover {
         transform: scale(1.1);
         color: #ac9872; }
-    .footer_box a:hover{
+    #footer_box a:hover{
         color: #ac9872;}
+    @media only screen and (max-width:992px){
+        #footer_box{
+            justify-content: center;
+            text-align: center;
+        }
+
+
+    }    
 /* --------------------- */
 #icon_footer_box{
     display: flex;
@@ -108,3 +116,8 @@ body{
     padding-top: 1.6rem;
     justify-content:space-between;
     align-items: flex-end;}
+    @media only screen and (max-width:992px){
+        #icon_footer_box{
+            justify-content: center;
+            text-align: center;
+        }
