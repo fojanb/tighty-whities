@@ -68,7 +68,7 @@ body{
 
 /* --------------------- */ 
 .side-nav {
-    grid-row: 2/4;
+    grid-row: 1/4;
     grid-column: 1/2;
     display: flex;
     justify-content: flex-start;
