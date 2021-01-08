@@ -1,7 +1,7 @@
 body{
     font-family: "Jost", sans-serif;
     line-height: 1.8;
-    color: black;
+    color:#4c4f52;
     background-color:#f9fbfc;}
  /* --------------------- */ 
 .page-header{
@@ -39,6 +39,8 @@ body{
     align-items: center;
     justify-content: center;
     width: 900px;}
+
+/* --------------------- */ 
 
 /* --------------------- */ 
 #container_div{
@@ -79,7 +81,8 @@ body{
       writing-mode: vertical-lr; }
       .side-nav-text p {
         padding: 1.5rem;
-        transform: rotate(180deg); }
+        transform: rotate(180deg);
+        font-size: 1.6rem;}
     .side-nav-icon {
       display: flex;
       flex-direction: column; }
@@ -93,6 +96,10 @@ body{
 /* --------------------- */ 
 #navCarousel{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;}
+/* --------------------- */ 
+    
+h1{
+    font-family: "Playfair Display", serif;
 }
 
