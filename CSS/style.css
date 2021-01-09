@@ -55,30 +55,6 @@ body{
     margin: 50px;}
 
 /* --------------------- */ 
-.side-nav {
-    display: flex;
-    justify-content:center;
-    align-items:baseline;
-    flex-direction: column;
-    margin-left: 10px;}
-    .side-nav-text {
-      display: flex;
-      writing-mode: vertical-lr; }
-      .side-nav-text p {
-        padding: 1.5rem;
-        transform: rotate(180deg);
-        font-size: 1.6rem;}
-    .side-nav-icon {
-      display: flex;
-      flex-direction: column; }
-      .side-nav-icon i {
-        padding: 2rem;
-        transition: all .3s;
-        cursor: pointer; }
-        .side-nav-icon i:hover {
-          color: #ac9872; }
-
-/* --------------------- */ 
 #navCarousel{
     display: flex;
     flex-direction: row;}
@@ -86,12 +62,12 @@ body{
 #footer_box{
     display: flex;
     flex-direction: column;
-    justify-content:left;
-    align-items:flex-end;
-    background-color: #eeeeee;
+    justify-content:right;
+    align-items:flex-start;
+    background-color:#f9fbfc;
     padding:48px 48px 60px 60px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 25px;
     border-radius: 5px;}
 
@@ -100,17 +76,17 @@ body{
         color: #ac9872; }
     #footer_box a:hover{
         color: #ac9872;}
-    @media only screen and (max-width:994px){
+    /* @media only screen and (max-width:994px){
         #footer_box{
-            justify-content: center;
-            text-align: center;
+            
+            text-align:left;
             padding-left: 0px;
             padding-right: 0px;
-            align-items: center;
-        }
+          
+        } 
 
 
-    }    
+    }    */
 /* --------------------- */
 #icon_footer_box{
     display: flex;
@@ -119,12 +95,12 @@ body{
     padding-top: 1.6rem;
     justify-content:space-between;
     align-items: flex-end;}
-    @media only screen and (max-width:992px){
+    /* @media only screen and (max-width:992px){
         #icon_footer_box{
             justify-content:space-between;
-            text-align: center;
+            text-align: left;
             align-items: center;
             padding-top: 0.6rem;
             margin-left: 40%;
         }
-    }
+    } */
