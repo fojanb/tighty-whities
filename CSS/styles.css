@@ -1,0 +1,26 @@
+.ImgContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ImgPosition {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ImgSize{
+    width: 150px;
+    height: 200px;
+}
+
+.footer {
+  width: 100%;
+  color: lightgray;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
