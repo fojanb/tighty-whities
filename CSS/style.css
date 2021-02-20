@@ -1,108 +1,72 @@
-body{
-    font-family: "Jost", sans-serif;
-    font-size: 1.6rem;
-    color:#4c4f52;
-    background-color:#f9fbfc;
-    letter-spacing: 1px;
-    font-weight: 400;
-    line-height: 1.6;
-    margin-top: 30px;
-    }
- /* --------------------- */ 
-.page-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 40px;
-    letter-spacing: 10px;
-    align-items: center;}
-/* --------------------- */ 
-#navbar-style{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;}
-/* --------------------- */ 
-.textCenter {
-    text-align: center;}  
+body {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.8;
+  background-color: #f8edeb;
+  color: black;
+}
 
-/* --------------------- */ 
-.carousel-inner img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 900px;
-    height: 200px;}
-/* --------------------- */ 
-#carousel_div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 900px;}
-/* --------------------- */ 
-#container_div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;}
-/* --------------------- */ 
-.col-sm-3 img{
-    border-radius: 20px;}
-/* --------------------- */ 
-.space_50px{
-    display: flex;
-    flex-direction: row;
-    margin: 50px;}
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  align-items: center;
+}
 
-/* --------------------- */ 
-#navCarousel{
-    display: flex;
-    flex-direction: row;}
-/* --------------------- */  
-#footer_box{
-    display: flex;
-    flex-direction: column;
-    justify-content:right;
-    align-items:flex-start;
-    background-color:#f9fbfc;
-    padding:48px 48px 60px 60px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 25px;
-    border-radius: 5px;}
-
-    #footer_box i:hover {
-        transform: scale(1.1);
-        color: #ac9872; }
-    #footer_box a:hover{
-        color: #ac9872;}
-    /* @media only screen and (max-width:994px){
-        #footer_box{
-            
-            text-align:left;
-            padding-left: 0px;
-            padding-right: 0px;
-          
-        } 
-
-
-    }    */
 /* --------------------- */
-#icon_footer_box{
+/* #navbar-style{
     display: flex;
     flex-direction: row;
-    width: 20%;
-    padding-top: 1.6rem;
-    justify-content:space-between;
-    align-items: flex-end;}
-    /* @media only screen and (max-width:992px){
-        #icon_footer_box{
-            justify-content:space-between;
-            text-align: left;
-            align-items: center;
-            padding-top: 0.6rem;
-            margin-left: 40%;
-        }
-    } */
+    justify-content: center;
+    align-items: center;
+    
+}     */
+.textCenter {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+#subItem1 {
+  display: none;
+  color: whitesmoke;
+}
+#subItem2 {
+  display: none;
+  color: whitesmoke;
+}
+#subItem3 {
+  display: none;
+  color: whitesmoke;
+}
+#subItem4 {
+  display: none;
+  color: whitesmoke;
+}
+
+#carousel-example-generic a.carousel-control {
+  height: 26%;
+  top: 33%;
+  width: 86px;
+  background: black;
+}
+
+.imagePlacedInCenter {
+  margin: 0 auto;
+}
+#mySearchInput {
+  margin-left: 510px;
+  border-width: 0px;
+  border: none;
+  
+}
+#mySearchButton {
+  background-color: #f8edeb;
+}
+  #mySearchButton a{
+    text-decoration: none;
+  }
+
+ 
