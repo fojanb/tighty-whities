@@ -77,6 +77,8 @@ h1 {
 
 .imagePlacedInCenter {
   margin: 0 auto;
+  border:5px solid #dac8bd;
+  border-radius: 20px;
 }
 #mySearchInput {
   margin-left: 510px;
@@ -94,8 +96,18 @@ h1 {
   flex-direction: row;
 }
 
-#headerLink a{
+#headerLink {
   text-decoration: none;
-  /* color: #424b54; */
   color: inherit;
+}
+#topBorder{
+  display: flex;
+  flex-direction: row;
+
+  width: 1489px;
+  height: 30px;
+  position: relative;
+  right:60px;
+  bottom: 50px;
+ 
 }
