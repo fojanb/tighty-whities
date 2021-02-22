@@ -39,10 +39,10 @@ h1 {
 /* --------------------------- */
 #subItem1 {
   display: none;
-  color:  #5c6064;
+  color: #5c6064;
 }
-#item1 a{
-  color:  #5c6064;
+#item1 a {
+  color: #5c6064;
 }
 #item1 a:hover {
   color: #ac9872;
@@ -51,10 +51,10 @@ h1 {
 /* --------------------------- */
 #subItem2 {
   display: none;
-  color:  #5c6064;
+  color: #5c6064;
 }
-#item2 a{
-  color:  #5c6064;
+#item2 a {
+  color: #5c6064;
 }
 #item2 a:hover {
   color: #ac9872;
@@ -63,10 +63,10 @@ h1 {
 /* --------------------------- */
 #subItem3 {
   display: none;
-  color:  #5c6064;
+  color: #5c6064;
 }
-#item3 a{
-  color:  #5c6064;
+#item3 a {
+  color: #5c6064;
 }
 #item3 a:hover {
   color: #ac9872;
@@ -75,10 +75,10 @@ h1 {
 /* --------------------------- */
 #subItem4 {
   display: none;
-  color:  #5c6064;
+  color: #5c6064;
 }
-#item4 a{
-  color:  #5c6064;
+#item4 a {
+  color: #5c6064;
 }
 #item4 a:hover {
   color: #ac9872;
@@ -125,14 +125,20 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  height: 250px;
+  justify-content: space-around;
   width: 30px;
-  height: 100px;
   position: relative;
   right: 60px;
   bottom: 50px;
-  margin-top: 15px;
   padding: 15px;
+  
+}
+#topBorder a{
+  color: #5c6064;
+}
+#topBorder a:hover {
+  color: #ac9872;
 }
 .footer {
   display: flex;
@@ -151,37 +157,38 @@ h1 {
   height: 50px;
 }
 .footer-logo-box a {
-  color:  rgb(56, 55, 55);
+  color: rgb(56, 55, 55);
 }
 .footer-logo-box a:hover {
   color: #ac9872;
 }
 
-.footer-logo-box a{
+.footer-logo-box a {
   margin-right: 30px;
 }
-#topBorder{
-  display: flex;
-  flex-direction: column;
-  height: 250px;
-  justify-content: space-around;
 
-  
-}
-.main{
+.main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
   position: relative;
   bottom: 50px;
 }
-#mySearchButton a{
+#mySearchButton a {
   color: #5c6064;
 }
-#mySearchButton a:hover{
+#mySearchButton a:hover {
   color: #ac9872;
 }
-.footer-logo-box a{
+.footer-logo-box a {
   cursor: pointer;
+}
+.topLogo{
+  width: 150px;
+  height: 150px;
+  position: relative;
+ 
+  bottom: 100px;
+  right: 650px;
 }
