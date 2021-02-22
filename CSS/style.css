@@ -98,6 +98,7 @@ h1 {
   margin: 0 auto;
   border: 5px solid #dac8bd;
   border-radius: 20px;
+  margin: 0px 30px;
 }
 #mySearchInput {
   margin-left: 600px;
@@ -113,6 +114,7 @@ h1 {
 .imgInCarousel {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #headerLink {
@@ -161,8 +163,25 @@ h1 {
 #topBorder{
   display: flex;
   flex-direction: column;
-  background-color: lawngreen;
-  position: relative;
-  top: 400px;
+  height: 250px;
+  justify-content: space-around;
+
   
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  position: relative;
+  bottom: 50px;
+}
+#mySearchButton a{
+  color: #5c6064;
+}
+#mySearchButton a:hover{
+  color: #ac9872;
+}
+.footer-logo-box a{
+  cursor: pointer;
 }
