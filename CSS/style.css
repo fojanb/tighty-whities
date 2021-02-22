@@ -100,7 +100,7 @@ h1 {
   border-radius: 20px;
 }
 #mySearchInput {
-  margin-left: 510px;
+  margin-left: 600px;
   border-width: 0px;
   border: none;
 }
@@ -157,4 +157,12 @@ h1 {
 
 .footer-logo-box a{
   margin-right: 30px;
+}
+#topBorder{
+  display: flex;
+  flex-direction: column;
+  background-color: lawngreen;
+  position: relative;
+  top: 400px;
+  
 }
