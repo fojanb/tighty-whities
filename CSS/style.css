@@ -1,4 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: initial; }
+
+
+
+
 body {
+  display: grid;
+  grid-template-columns: 10rem repeat(10, 1fr);
+  grid-template-rows: 10rem repeat(2, 70rem) repeat(5, min-content);
   font-family: "Jost", sans-serif;
   line-height: 1.8;
   background-color: #f8edeb;
@@ -188,7 +201,11 @@ h1 {
   width: 150px;
   height: 150px;
   position: relative;
- 
   bottom: 100px;
   right: 650px;
+}
+#navBarPosition{
+  display: flex;
+  flex-direction: column;
+
 }
