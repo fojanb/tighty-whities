@@ -1,12 +1,9 @@
-<!-- Final Project_Certified HTML5 Specialist -->
-<!--Author: Fojan Babaali-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tighty Wighty</title>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--------------------------------------->
     <!--Bootstrap-->
     <!-- Latest compiled and minified CSS -->
     <link
@@ -26,395 +23,539 @@
     />
     <!--------------------------------------->
     <!--CSS files-->
-    <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/styles.css" />
-
+    <link rel="stylesheet" href="testcss.css" />
     <!-- Added jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Tighty Wighty Test</title>
   </head>
   <body>
     <div class="container-fluid">
-      
-      <div class="jumbotron text-center" style="background-color: #f8edeb">
-        
-        <a href="index.html" id="headerLink">
-          <h1
-            style="
-              letter-spacing: 2rem;
-              font-size: 4rem;
-              font-weight: bold;
-              color: #5c6064;
-            "
+      <div class="grid-container">
+        <div class="item1">
+          <div class="jumbotron text-center" style="background-color: #f1ece8">
+            <div id="topBorder">
+              <a href="#" class="glyphicon glyphicon-envelope"></a>
+              <a href="#" class="glyphicon glyphicon-user"></a>
+              <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+              <a href="#" class="glyphicon glyphicon-earphone"></a>
+              <a href="#" class="glyphicon glyphicon-piggy-bank"></a>
+              <a href="#" class="glyphicon glyphicon-off"></a>
+            </div>
+            <a href="index.html" id="headerLink">
+              <h1
+                style="
+                  letter-spacing: 2rem;
+                  font-size: 4rem;
+                  font-weight: bold;
+                  color: #777879;
+                "
+              >
+                TIGHTY WIGHTY
+              </h1>
+            </a>
+          </div>
+          <!-- Navigation Bar Start-->
+          <nav
+            class="navbar navbar-inverse"
+            class="navbar navbar-light"
+            style="background-color: #f9fbfc; border: 0px; font-size: 16px"
+            id="navbar"
           >
-            TIGHTY WIGHTY
-          </h1>
-        </a>
-        
-        <img class="topLogo" src="images/tw.png" alt="twlogo" />
-        
-        <!-- Navigation Bar Start-->
-        <nav
-          class="navbar navbar-inverse"
-          class="navbar navbar-light"
-          id="navBarPosition"
-          style="background-color: #f8edeb; border: 0px; text-align: center"
-        >
-          <div class="container">
-            <ul class="nav navbar-nav">
-              <!-- <li class="active"><a href="#">Home</a></li> -->
-              <li id="item1">
-                <a href="#"><strong>About Us</strong></a>
-                <div id="subItem1">
-                  <p>Our Story</p>
-                  <p>Company</p>
-                  <p>Our Stores</p>
-                </div>
-              </li>
-              <li id="item2">
-                <a href="#"><strong>Contact</strong></a>
-                <div id="subItem2">
-                  <p>Tell</p>
-                  <p>Email</p>
-                  <p>Fax</p>
-                </div>
-              </li>
-              <li id="item3">
-                <a href="womens.html"><strong>Women's</strong></a>
-                <div id="subItem3">
-                  <p>Bottoms</p>
-                  <p>Tops</p>
-                </div>
-              </li>
-              <li id="item4">
-                <a href="mens.html" target="_blank"><strong>Men's</strong></a>
-                <div id="subItem4">
-                  <p>Bottoms</p>
-                  <p>Tops</p>
-                </div>
-              </li>
-              <li style="padding-top: 8px">
-                <form class="form-inline my-2 my-lg-0">
-                  <input
-                    class="form-control mr-sm-2"
-                    type="search"
-                    placeholder="Search"
-                    id="mySearchInput"
-                  />
-                  <button
-                    class="btn btn-outline-success my-2 my-sm-0"
-                    type="submit"
-                    id="mySearchButton"
+            <div class="container">
+              <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#">Home</a></li> -->
+                <li id="item1">
+                  <a href="#"><strong>About Us</strong></a>
+                  <div id="subItem1">
+                    <p>Our Story</p>
+                    <p>Company</p>
+                    <p>Our Stores</p>
+                  </div>
+                </li>
+                <li id="item2">
+                  <a href="#"><strong>Contact</strong></a>
+                  <div id="subItem2">
+                    <p>Tell</p>
+                    <p>Email</p>
+                    <p>Fax</p>
+                  </div>
+                </li>
+                <li id="item3">
+                  <a href="#"><strong>Women's</strong></a>
+                  <div id="subItem3">
+                    <p>Bottoms</p>
+                    <p>Tops</p>
+                  </div>
+                </li>
+                <li id="item4">
+                  <a href="mens.html" target="_blank"><strong>Men's</strong></a>
+                  <div id="subItem4">
+                    <p>Bottoms</p>
+                    <p>Tops</p>
+                  </div>
+                </li>
+                <li style="padding-top: 8px">
+                  <form class="form-inline my-2 my-lg-0">
+                    <input
+                      class="form-control mr-sm-2"
+                      type="search"
+                      placeholder="Search"
+                      id="mySearchInput"
+                    />
+                    <button
+                      class="btn btn-outline-success my-2 my-sm-0"
+                      type="submit"
+                      id="mySearchButton"
+                    >
+                      <a href="#" class="glyphicon glyphicon-search"></a>
+                    </button>
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Navigation Bar Done-->
+        </div>
+        <div class="item2">
+          <!-- Side Bar start-->
+          <div class="wrapper">
+            <nav id="sidebar">
+              <h4><strong>&nbsp Shop All Men's</strong></h4>
+
+              <ul class="list-unstyled components">
+                <li class="active">
+                  <a
+                    href="#homeSubmenu"
+                    data-toggle="collapse"
+                    aria-expanded="false"
+                    class="dropdown-toggle"
+                    ><strong>Tops</strong></a
                   >
-                    <a href="#" class="glyphicon glyphicon-search"></a>
-                  </button>
-                </form>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- Navigation Bar End -->
-        <br />
-        <div class="horizontalLanes">
-          <hr
-            style="
-              position: relative;
-              top: -40px;
-              right: 75px;
-              width: 110.97%;
-              text-align: center;
-              border-bottom: 5px solid #dac8bd;
-            "
-          />
-        </div>
-      </div>
-      <!------------------------------------------------------------->
-      <div class="main">
-        <div id="topBorder">
-          <a href="#" class="glyphicon glyphicon-envelope"></a>
-          <a href="#" class="glyphicon glyphicon-user"></a>
-          <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
-          <a href="#" class="glyphicon glyphicon-earphone"></a>
-          <a href="#" class="glyphicon glyphicon-piggy-bank"></a>
-          <a href="#" class="glyphicon glyphicon-off"></a>
-        </div>
-        <!--Bootstrap Carousel Plugin start-->
-        <div
-          id="carousel-example-generic"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carousel-example-generic"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <div class="imgInCarousel">
-                <img
-                  src="images/img10.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img2.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img11.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-              </div>
-              <div class="carousel-caption">
-                <h3></h3>
-              </div>
-            </div>
-            <div class="item">
-              <div class="imgInCarousel">
-                <img
-                  src="images/img16.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img15.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img5.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-              </div>
-              <div class="carousel-caption">
-                <h3></h3>
-              </div>
-            </div>
-            <div class="item">
-              <div class="imgInCarousel">
-                <img
-                  src="images/img12.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img1.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img9.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-              </div>
-              <div class="carousel-caption">
-                <h3></h3>
-              </div>
-            </div>
-            <div class="item">
-              <div class="imgInCarousel">
-                <img
-                  src="images/img4.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img14.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-                <img
-                  src="images/img3.jpg"
-                  alt="T-shirt"
-                  class="imagePlacedInCenter"
-                  class="img-raounded"
-                />
-              </div>
-              <div class="carousel-caption">
-                <h3></h3>
-              </div>
-            </div>
-          </div>
-
-          <!-- Controls -->
-          <a
-            class="left carousel-control"
-            href="#carousel-example-generic"
-            role="button"
-            data-slide="prev"
-          >
-            <span
-              class="glyphicon glyphicon-chevron-left"
-              aria-hidden="false"
-            ></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="right carousel-control"
-            href="#carousel-example-generic"
-            role="button"
-            data-slide="next"
-          >
-            <span
-              class="glyphicon glyphicon-chevron-right"
-              aria-hidden="false"
-            ></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-        <!-- Bootstrap Carousel Plugin finished -->
-      </div>
-
-      <article>
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. The point of
-        using Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to using 'Content here, content here', making it
-        look like readable English. Many desktop publishing packages and web
-        page editors now use Lorem Ipsum as their default model text, and a
-        search for 'lorem ipsum' will uncover many web sites still in their
-        infancy. Various versions have evolved over the years, sometimes by
-        accident, sometimes on purpose (injected humour and the like). It is a
-        long established fact that a reader will be distracted by the readable
-        content of a page when looking at its layout. The point of using Lorem
-        Ipsum is that it has a more-or-less normal distribution of letters, as
-        opposed to using 'Content here, content here', making it look like
-        readable English. Many desktop publishing packages and web page editors
-        now use Lorem Ipsum as their default model text, and a search for 'lorem
-        ipsum' will uncover many web sites still in their infancy. Various
-        versions have evolved over the years, sometimes by accident, sometimes
-        on purpose (injected humour and the like). It is a long established fact
-        that a reader will be distracted by the readable content of a page when
-        looking at its layout. The point of using Lorem Ipsum is that it has a
-        more-or-less normal distribution of letters, as opposed to using
-        'Content here, content here', making it look like readable English. Many
-        desktop publishing packages and web page editors now use Lorem Ipsum as
-        their default model text, and a search for 'lorem ipsum' will uncover
-        many web sites still in their infancy. Various versions have evolved
-        over the years, sometimes by accident, sometimes on purpose (injected
-        humour and the like). It is a long established fact that a reader will
-        be distracted by the readable content of a page when looking at its
-        layout. The point of using Lorem Ipsum is that it has a more-or-less
-        normal distribution of letters, as opposed to using 'Content here,
-        content here', making it look like readable English. Many desktop
-        publishing packages and web page editors now use Lorem Ipsum as their
-        default model text, and a search for 'lorem ipsum' will uncover many web
-        sites still in their infancy. Various versions have evolved over the
-        years, sometimes by accident, sometimes on purpose (injected humour and
-        the like). It is a long established fact that a reader will be
-        distracted by the readable content of a page when looking at its layout.
-        The point of using Lorem Ipsum is that it has a more-or-less normal
-        distribution of letters, as opposed to using 'Content here, content
-        here', making it look like readable English. Many desktop publishing
-        packages and web page editors now use Lorem Ipsum as their default model
-        text, and a search for 'lorem ipsum' will uncover many web sites still
-        in their infancy. Various versions have evolved over the years,
-        sometimes by accident, sometimes on purpose (injected humour and the
-        like).
-      </article>
-      <!------------------------------------------------------------->
-
-      <!-- Footer -->
-
-      <footer class="bg-light text-center text-lg-start">
-        <div>
-          <hr
-            style="
-              width: 100%;
-              text-align: center;
-              border-bottom: 5px solid #dac8bd;
-            "
-          />
-        </div>
-        <!-- Grid container -->
-        <div class="container p-4">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <img src="./images/logo.png" alt="logo" id="footerLogo" />
-              <p>
-                &copy; Copyright All Rights Reserved For
-                <span>Fojan Babaali</span> 2021.
-              </p>
-              <div class="footer-logo-box">
-                <a><i class="fab fa-instagram"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
-                <a><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Support</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-dark">Customer Care</a>
+                  <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                      <a href="#">Tees & Tanks</a>
+                    </li>
+                    <li>
+                      <a href="#">Long Sleeves</a>
+                    </li>
+                    <li>
+                      <a href="#">Short Sleeves</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Office Hours</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Our Locations</a>
+                  <a
+                    href="#pageSubmenu"
+                    data-toggle="collapse"
+                    aria-expanded="false"
+                    class="dropdown-toggle"
+                    ><strong>Bottoms</strong></a
+                  >
+                  <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                      <a href="#">Denim</a>
+                    </li>
+                    <li>
+                      <a href="#">Shorts</a>
+                    </li>
+                    <li>
+                      <a href="#">Joggers</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </div>
-            <!--Grid column-->
+              <div class="homePageLink">
+                <h4><strong>&nbsp Shop All Women's</strong></h4>
 
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
+                <ul class="list-unstyled components">
+                  <li class="active">
+                    <a
+                      href="#homeSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle"
+                      ><strong>Tops</strong></a
+                    >
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                        <a href="#">Tees & Tanks</a>
+                      </li>
+                      <li>
+                        <a href="#">Long Sleeves</a>
+                      </li>
+                      <li>
+                        <a href="#">Short Sleeves</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      href="#pageSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle"
+                      ><strong>Bottoms</strong></a
+                    >
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li>
+                        <a href="#">Denim</a>
+                      </li>
+                      <li>
+                        <a href="#">Shorts</a>
+                      </li>
+                      <li>
+                        <a href="#">Joggers</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <h4><strong>&nbsp Shop All Boy's</strong></h4>
 
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="text-dark">Career</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Blog</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">News</a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
+                <ul class="list-unstyled components">
+                  <li class="active">
+                    <a
+                      href="#homeSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle"
+                      ><strong>Tops</strong></a
+                    >
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                        <a href="#">Tees & Tanks</a>
+                      </li>
+                      <li>
+                        <a href="#">Long Sleeves</a>
+                      </li>
+                      <li>
+                        <a href="#">Short Sleeves</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      href="#pageSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle"
+                      ><strong>Bottoms</strong></a
+                    >
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li>
+                        <a href="#">Denim</a>
+                      </li>
+                      <li>
+                        <a href="#">Shorts</a>
+                      </li>
+                      <li>
+                        <a href="#">Joggers</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <h4><strong>&nbsp Shop All Girl's</strong></h4>
+
+                <ul class="list-unstyled components">
+                  <li class="active">
+                    <a
+                      href="#homeSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle"
+                      ><strong>Tops</strong></a
+                    >
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                        <a href="#">Tees & Tanks</a>
+                      </li>
+                      <li>
+                        <a href="#">Long Sleeves</a>
+                      </li>
+                      <li>
+                        <a href="#">Short Sleeves</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      href="#pageSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle"
+                      ><strong>Bottoms</strong></a
+                    >
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li>
+                        <a href="#">Denim</a>
+                      </li>
+                      <li>
+                        <a href="#">Shorts</a>
+                      </li>
+                      <li>
+                        <a href="#">Joggers</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
-          <!--Grid row-->
+          <!-- Side Bar done-->
         </div>
-        <!-- Grid container -->
-      </footer>
-      <!-- Footer -->
+        <div class="item3">
+          <!--Bootstrap Carousel Plugin start-->
+          <div
+            id="carousel-example-generic"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carousel-example-generic"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carousel-example-generic"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carousel-example-generic"
+                data-slide-to="2"
+              ></li>
+              <li
+                data-target="#carousel-example-generic"
+                data-slide-to="3"
+              ></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="imgInCarousel">
+                  <img
+                    src="images/img25.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img24.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img27.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                </div>
+                <div class="carousel-caption">
+                  <h3></h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgInCarousel">
+                  <img
+                    src="images/img30.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img23.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img32.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                </div>
+                <div class="carousel-caption">
+                  <h3></h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgInCarousel">
+                  <img
+                    src="images/img33.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img29.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img28.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                </div>
+                <div class="carousel-caption">
+                  <h3></h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgInCarousel">
+                  <img
+                    src="images/img36.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img34.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                  <img
+                    src="images/img35.png"
+                    alt="T-shirt"
+                    class="imagePlacedInCenter"
+                    class="img-raounded"
+                  />
+                </div>
+                <div class="carousel-caption">
+                  <h3></h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a
+              class="left carousel-control"
+              href="#carousel-example-generic"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="glyphicon glyphicon-chevron-left"
+                aria-hidden="false"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#carousel-example-generic"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="glyphicon glyphicon-chevron-right"
+                aria-hidden="false"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- Bootstrap Carousel Plugin finished -->
+          <div class="grid-container-sales">
+            <h2>Summer Sales</h2>
+            <div class="sales">
+              <img
+                src="images/img20.jpg"
+                alt="sale"
+                class="img-thumbnail"
+                style="width: 200px; height: 150px"
+              />
+              <img
+                src="images/img21.jpg"
+                alt="sale"
+                class="img-thumbnail"
+                style="width: 200px; height: 150px"
+              />
+              <img
+                src="images/img22.jpg"
+                alt="sale"
+                class="img-thumbnail"
+                style="width: 200px; height: 150px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="item4">Right</div>
+        <div class="item5">
+          <div class="jumbotron text-center" style="background-color: #f1ece8">
+            <footer class="bg-light text-center text-lg-start" id="footer">
+              <!-- Grid container -->
+              <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <img src="./images/logo.png" alt="logo" id="footerLogo" />
+                    <p style="font-size: 13px">
+                      &copy; Copyright All Rights Reserved For
+                      <span>Fojan Babaali</span> 2021.
+                    </p>
+                    <div class="footer-logo-box">
+                      <a><i class="fab fa-instagram"></i></a>
+                      <a><i class="fab fa-twitter"></i></a>
+                      <a><i class="fab fa-facebook-f"></i></a>
+                      <a><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Support</h5>
+
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#!" class="text-dark">Customer Care</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark">Office Hours</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark">Our Locations</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Links</h5>
+
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!" class="text-dark">Career</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Grid container -->
+            </footer>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--container-fluid-->
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="JavaScript/main.js"></script>
+    <script src="testjs.js"></script>
   </body>
 </html>
