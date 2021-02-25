@@ -33,6 +33,22 @@ $(function () {
       $("#subItem4").slideUp();
     });
   });
+  $("#item5").click(function () {
+    $("#subItem5")
+      .slideToggle()
+      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem5").mouseleave(function () {
+      $("#subItem5").slideUp();
+    });
+  });
+  $("#item6").click(function () {
+    $("#subItem6")
+      .slideToggle()
+      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem6").mouseleave(function () {
+      $("#subItem6").slideUp();
+    });
+  });
 });
 //   Side bar:
 $(function () {
