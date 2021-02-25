@@ -281,12 +281,11 @@ ul ul a {
 #topBorder {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: right;
   justify-content: space-around;
   font-size: 15px;
   width: 250px;
   padding: 10px;
-
 
   
 }
