@@ -7,6 +7,7 @@ body {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
+  
 }
 
 @keyframes fadeIn {
@@ -53,6 +54,7 @@ body {
     opacity: 1;
   }
 }
+
 /* --------------Grid's areas-------------------- */
 .item1 {
   grid-area: header;
@@ -69,6 +71,7 @@ body {
 .item5 {
   grid-area: footer;
 }
+
 .sale {
   grid-area: sale;
 }
@@ -117,6 +120,10 @@ body {
   display: none;
   color: #5c6064;
 }
+#subItem1 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
 #item1 a {
   color: #5c6064;
 }
@@ -128,6 +135,10 @@ body {
 #subItem2 {
   display: none;
   color: #5c6064;
+}
+#subItem2 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
 }
 #item2 a {
   color: #5c6064;
@@ -141,6 +152,10 @@ body {
   display: none;
   color: #5c6064;
 }
+#subItem3 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
 #item3 a {
   color: #5c6064;
 }
@@ -153,10 +168,46 @@ body {
   display: none;
   color: #5c6064;
 }
+#subItem4 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
 #item4 a {
   color: #5c6064;
 }
 #item4 a:hover {
+  color: #ac9872;
+  cursor: pointer;
+}
+/* ------------navbar--------------- */
+#subItem5 {
+  display: none;
+  color: #5c6064;
+}
+#subItem5 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+#item5 a {
+  color: #5c6064;
+}
+#item5 a:hover {
+  color: #ac9872;
+  cursor: pointer;
+}
+/* ------------navbar--------------- */
+#subItem6 {
+  display: none;
+  color: #5c6064;
+}
+#subItem6 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+#item6 a {
+  color: #5c6064;
+}
+#item6 a:hover {
   color: #ac9872;
   cursor: pointer;
 }
@@ -243,7 +294,7 @@ a:focus {
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid #f8edeb;
+  border-bottom: 1px solid #b08968;
 }
 
 #sidebar ul p {
@@ -260,6 +311,7 @@ a:focus {
   color: #777879;
   background-color: #f1ece8;
 }
+
 
 #sidebar ul li > a,
 a[aria-expanded="true"] {
@@ -279,13 +331,36 @@ ul ul a {
 }
 
 #topBorder {
-  display: flex;
-  flex-direction: row;
-  align-items: right;
-  justify-content: space-around;
-  font-size: 15px;
-  width: 250px;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  padding: 0px;
+  font-size: 14px;
+  height: 15px;
 
-  
 }
+#topBorder > a{
+  color:#777879;
+  
+  }
+
+
+
+#topBorder > a:hover{
+color: rgb(190, 154, 76);
+
+}
+.sideBarTitle > a{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #777879;
+  padding: 0px 10px;
+  border-radius: 5px;
+
+}
+
+.sideBarTitle > a:hover{
+  color:#4e3d32;
+  background-color: #d8c3b5;
+}
+
