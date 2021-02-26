@@ -101,11 +101,10 @@ $(function () {
     }
   }
 
-  // Mobile-nav :
+  // Mobile-side-nav :
   $(".wrapper").hide();
-
   $("#mobile-nav").click(function(){
-    $(".wrapper").toggle();
+    $(".wrapper").toggle(1000);
 
   });
 
