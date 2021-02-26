@@ -102,9 +102,11 @@ $(function () {
   }
 
   // Mobile-nav :
+  $(".wrapper").hide();
+
   $("#mobile-nav").click(function(){
-    $(".wrapper").animate({ marginLeft: "10%"} , 1000);
+    $(".wrapper").toggle();
 
   });
 
-});// ***< jQuery end >***
+});// ***< jQuery end >***//animate({ marginLeft: "10%"} , 1000)
