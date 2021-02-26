@@ -1,57 +1,62 @@
 // jQuery start :
 // nav bar:
 $(function () {
-  $("#item1").mouseover(function () {
+  $("#item1").mouseenter(function () {
     $("#subItem1")
-      .slideToggle()
+      .slideDown()
       .css({ "text-align": "center", "font-size": "10px" });
-    $("#subItem1").mouseout(function () {
-      $("#subItem1").slideUp();
-    });
   });
-  $("#item2").click(function () {
+  $("#item1").mouseleave(function () {
+    $("#subItem1").slideUp();
+  });
+
+  $("#item2").mouseenter(function () {
     $("#subItem2")
-      .slideToggle()
+      .slideDown()
       .css({ "text-align": "center", "font-size": "10px" });
-    $("#subItem2").mouseleave(function () {
-      $("#subItem2").slideUp();
-    });
   });
-  $("#item3").click(function () {
+  $("#item2").mouseleave(function () {
+    $("#subItem2").slideUp();
+  });
+
+  $("#item3").mouseenter(function () {
     $("#subItem3")
-      .slideToggle()
+      .slideDown()
       .css({ "text-align": "center", "font-size": "10px" });
-    $("#subItem3").mouseleave(function () {
-      $("#subItem3").slideUp();
-    });
   });
-  $("#item4").click(function () {
+  $("#item3").mouseleave(function () {
+    $("#subItem3").slideUp();
+  });
+
+  $("#item4").mouseenter(function () {
     $("#subItem4")
-      .slideToggle()
+      .slideDown()
       .css({ "text-align": "center", "font-size": "10px" });
-    $("#subItem4").mouseleave(function () {
-      $("#subItem4").slideUp();
-    });
   });
-  $("#item5").click(function () {
+  $("#item4").mouseleave(function () {
+    $("#subItem4").slideUp();
+  });
+
+  $("#item5").mouseenter(function () {
     $("#subItem5")
-      .slideToggle()
+      .slideDown()
       .css({ "text-align": "center", "font-size": "10px" });
-    $("#subItem5").mouseleave(function () {
-      $("#subItem5").slideUp();
-    });
   });
-  $("#item6").click(function () {
+  $("#item5").mouseleave(function () {
+    $("#subItem5").slideUp();
+  });
+
+  $("#item6").mouseenter(function () {
     $("#subItem6")
-      .slideToggle()
+      .slideDown()
       .css({ "text-align": "center", "font-size": "10px" });
-    $("#subItem6").mouseleave(function () {
-      $("#subItem6").slideUp();
-    });
   });
-});
-//   Side bar:
-$(function () {
+  $("#item6").mouseleave(function () {
+    $("#subItem6").slideUp();
+  });
+
+  //   Side bar:
+
   $("#sidebarCollapse").click(function () {
     $(".wrapper").toggle();
   });
