@@ -1,7 +1,9 @@
 // ***< jQuery start >***
 
-// nav bar:
 $(function () {
+  //scroll down effect :
+
+  // nav bar:
   $("#item1").mouseenter(function () {
     $("#subItem1").slideDown().css({
       "text-align": "center",
@@ -103,9 +105,7 @@ $(function () {
 
   // Mobile-side-nav :
   $(".wrapper").hide();
-  $("#mobile-nav").click(function(){
+  $("#mobile-nav").click(function () {
     $(".wrapper").toggle(1000);
-
   });
-
-});// ***< jQuery end >***//animate({ marginLeft: "10%"} , 1000)
+}); // ***< jQuery end >***//animate({ marginLeft: "10%"} , 1000)
