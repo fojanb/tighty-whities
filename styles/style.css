@@ -1,5 +1,7 @@
 body {
   background-color: #f9fbfc;
+  /* background-image: url("../images/bg.png");
+  opacity: 0.75; */
   font-family: "Jost", sans-serif;
   font-size: 1.6rem;
   animation: fadeIn ease 1.5s;
@@ -233,7 +235,7 @@ body {
 .wrapper {
   display: flex;
   width: 100%;
-  margin-left: -100%;
+  margin-left: 20px;
   align-items: stretch;
 }
 #sidebar {
