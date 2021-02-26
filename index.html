@@ -40,23 +40,15 @@
                   letter-spacing: 2rem;
                   font-size: 4rem;
                   font-weight: bold;
-                  color: #777879;
+                  color: #4f4f50;
                   margin: 0 auto;
-                
                 "
               >
                 TIGHTY WHITIES
               </h1>
             </a>
-            <div id="headerGlyphicon">
-              <a href="#"><i class="glyphicon glyphicon-user" id="marginGlyf1"></i></a>
-              <a href="#"><i class="glyphicon glyphicon-shopping-cart" id="marginGlyf2"></i></a>
-              <a href="#"><i class="glyphicon glyphicon-earphone" id="marginGlyf3"></i></a>
-              <a href="#"><i class="glyphicon glyphicon-envelope" id="marginGlyf4"></i></a>
-              <a href="#"><i class="glyphicon glyphicon-off" id="marginGlyf5"></i></a>
-            </div>
             <hr />
-          </div> 
+          </div>
           <!-- Navigation Bar Start-->
           <nav
             class="navbar navbar-inverse"
@@ -66,10 +58,16 @@
           >
             <div class="container">
               <ul class="nav navbar-nav">
-                <!-- <li class="active"><a href="#">Home</a></li> -->
+                <li class="active">
+                  <a href="#">
+                    <section id="mobile-nav">
+                      Products
+                    </section>
+                  </a>
+                </li>
                 <li id="item1">
                   <a href="#"><strong>About Us</strong></a>
-                  <div id="subItem1">
+                  <div id="subItem1" class="dropdown">
                     <p>Our Story</p>
                     <p>Company</p>
                     <p>Stores</p>
@@ -512,7 +510,18 @@
           </div>
         </div>
         <div class="item4">
-          <!-- --Right of Carousel -->
+          <section class="side-nav">
+            <div class="side-nav-text">
+              <p>example.email@gmail.com</p>
+              <p>(+1) 123 456 7890</p>
+            </div>
+            <div class="side-nav-icon">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </section>
         </div>
         <div class="item5">
           <div class="jumbotron text-center" style="background-color: #f1ece8">
