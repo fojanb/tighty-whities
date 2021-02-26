@@ -1,7 +1,7 @@
+
 body {
-  background-color: #f9fbfc;
-  /* background-image: url("../images/bg.png");
-  opacity: 0.75; */
+  background-image: url("../images/pexels-julia-kuzenkov-1974521.jpg");
+  background-size: cover;
   font-family: "Jost", sans-serif;
   font-size: 1.6rem;
   animation: fadeIn ease 1.5s;
@@ -350,14 +350,14 @@ ul ul a {
 .sideBarTitle > a {
   font-size: 20px;
   font-weight: bolder;
-  color: #777879;
+  color: #818181;
   padding: 0px 10px;
   border-radius: 5px;
 }
 
 .sideBarTitle > a:hover {
   color: #4e3d32;
-  background-color: #d8c3b5;
+  background-color: #e9eef1;
 }
 
 .side-nav {
