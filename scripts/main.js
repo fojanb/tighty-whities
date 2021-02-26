@@ -5,7 +5,7 @@ $(function () {
     $("#subItem1")
       .slideToggle()
       .css({ "text-align": "center", "font-size": "10px" });
-    $("#subItem1").mouseleave(function () {
+    $("#subItem1").mouseout(function () {
       $("#subItem1").slideUp();
     });
   });
