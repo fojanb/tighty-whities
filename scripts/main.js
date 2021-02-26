@@ -103,7 +103,7 @@ $(function () {
 
   // Mobile-nav :
   $("#mobile-nav").click(function(){
-    $(".wrapper").animate({ marginLeft: "10%"} , 2000);
+    $(".wrapper").animate({ marginLeft: "10%"} , 1000);
 
   });
 
