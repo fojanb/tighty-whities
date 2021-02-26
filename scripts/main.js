@@ -1,7 +1,7 @@
 // jQuery start :
 // nav bar:
 $(function () {
-  $("#item1").click(function () {
+  $("#item1").mouseover(function () {
     $("#subItem1")
       .slideToggle()
       .css({ "text-align": "center", "font-size": "10px" });
