@@ -329,24 +329,40 @@ ul ul a {
   border-radius: 10px;
 }
 
-#topBorder {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto;
-  grid-gap: 55px;
+#headerGlyphicon {
+  display: inline;
+  position: relative;
+  left: 300px;
+  bottom:60px;
   font-size: 15px;
-  height: 400px;
-  width: 50px;
-  padding-top: 10px;
+ 
+
   border-radius: 10px;
   background-color: #f1ece8;
 }
-#topBorder > a {
+#headerGlyphicon > a {
   color: #777879;
 }
 
-#topBorder > a:hover {
+#headerGlyphicon > a:hover {
   color: rgb(190, 154, 76);
 }
+#marginGlyf1{
+  margin-right: 30px;
+}
+#marginGlyf2{
+  margin-right: 30px;
+}
+#marginGlyf3{
+  margin-right: 30px;
+}
+#marginGlyf4{
+  margin-right: 30px;
+}
+#marginGlyf5{
+  margin-right: 30px;
+}
+
 .sideBarTitle > a {
   font-size: 20px;
   font-weight: bolder;
