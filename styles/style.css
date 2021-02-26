@@ -375,6 +375,7 @@ ul ul a {
 }
 .side-nav-text p {
   padding: 3rem;
+  font-size: 15px;
   transform: rotate(180deg);
 }
 .side-nav-icon {
