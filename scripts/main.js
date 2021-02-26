@@ -1,66 +1,86 @@
-// jQuery start :
+// ***< jQuery start >***
+
 // nav bar:
 $(function () {
   $("#item1").mouseenter(function () {
-    $("#subItem1")
-      .slideDown()
-      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem1").slideDown().css({
+      "text-align": "center",
+      "font-size": "10px",
+      "background-color": "#f1ece8",
+      "border-radius": "10px",
+    });
   });
   $("#item1").mouseleave(function () {
     $("#subItem1").slideUp();
   });
 
   $("#item2").mouseenter(function () {
-    $("#subItem2")
-      .slideDown()
-      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem2").slideDown().css({
+      "text-align": "center",
+      "font-size": "10px",
+      "background-color": "#f1ece8",
+      "border-radius": "10px",
+    });
   });
   $("#item2").mouseleave(function () {
     $("#subItem2").slideUp();
   });
 
   $("#item3").mouseenter(function () {
-    $("#subItem3")
-      .slideDown()
-      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem3").slideDown().css({
+      "text-align": "center",
+      "font-size": "10px",
+      "background-color": "#f1ece8",
+      "border-radius": "10px",
+    });
   });
   $("#item3").mouseleave(function () {
     $("#subItem3").slideUp();
   });
 
   $("#item4").mouseenter(function () {
-    $("#subItem4")
-      .slideDown()
-      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem4").slideDown().css({
+      "text-align": "center",
+      "font-size": "10px",
+      "background-color": "#f1ece8",
+      "border-radius": "10px",
+    });
   });
   $("#item4").mouseleave(function () {
     $("#subItem4").slideUp();
   });
 
   $("#item5").mouseenter(function () {
-    $("#subItem5")
-      .slideDown()
-      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem5").slideDown().css({
+      "text-align": "center",
+      "font-size": "10px",
+      "background-color": "#f1ece8",
+      "border-radius": "10px",
+    });
   });
   $("#item5").mouseleave(function () {
     $("#subItem5").slideUp();
   });
 
   $("#item6").mouseenter(function () {
-    $("#subItem6")
-      .slideDown()
-      .css({ "text-align": "center", "font-size": "10px" });
+    $("#subItem6").slideDown().css({
+      "text-align": "center",
+      "font-size": "10px",
+      "background-color": "#f1ece8",
+      "border-radius": "10px",
+    });
   });
   $("#item6").mouseleave(function () {
     $("#subItem6").slideUp();
   });
 
-  //   Side bar:
+  //  Side bar:
 
   $("#sidebarCollapse").click(function () {
     $(".wrapper").toggle();
   });
 
+  // sticky nav-bar:
   // When the user scrolls the page, execute myFunction
   window.onscroll = function () {
     myFunction();
@@ -80,4 +100,11 @@ $(function () {
       navbar.classList.remove("sticky");
     }
   }
-});
+
+  // Mobile-nav :
+  $("#mobile-nav").click(function(){
+    $(".wrapper").animate({ marginLeft: "10%"} , 2000);
+
+  });
+
+});// ***< jQuery end >***
