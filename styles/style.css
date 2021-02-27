@@ -4,11 +4,11 @@ body {
   background-size: cover;
   font-family: "Jost", sans-serif;
   font-size: 1.6rem;
-  animation: fadeIn ease 1.5s;
+  /* animation: fadeIn ease 1.5s;
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s; */
 }
 
 @keyframes fadeIn {
