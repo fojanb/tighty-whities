@@ -78,9 +78,9 @@ $(function () {
 
   //  Side bar:
 
-  $("#sidebarCollapse").click(function () {
-    $(".wrapper").toggle();
-  });
+  // $("#sidebarCollapse").click(function () {
+  //   $(".wrapper").toggle();
+  // });
 
   // sticky nav-bar:
   // When the user scrolls the page, execute myFunction
