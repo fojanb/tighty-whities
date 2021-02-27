@@ -108,4 +108,6 @@ $(function () {
   $("#mobile-nav").click(function () {
     $(".wrapper").toggle(1000);
   });
-}); // ***< jQuery end >***//animate({ marginLeft: "10%"} , 1000)
+}); 
+// ***< jQuery end >
+
