@@ -8,8 +8,6 @@ $(function () {
     $("#subItem1").slideDown().css({
       "text-align": "center",
       "font-size": "10px",
-      "background-color": "#f1ece8",
-      "border-radius": "10px",
     });
   });
   $("#item1").mouseleave(function () {
@@ -20,8 +18,6 @@ $(function () {
     $("#subItem2").slideDown().css({
       "text-align": "center",
       "font-size": "10px",
-      "background-color": "#f1ece8",
-      "border-radius": "10px",
     });
   });
   $("#item2").mouseleave(function () {
@@ -31,9 +27,7 @@ $(function () {
   $("#item3").mouseenter(function () {
     $("#subItem3").slideDown().css({
       "text-align": "center",
-      "font-size": "10px",
-      "background-color": "#f1ece8",
-      "border-radius": "10px",
+      "font-size": "10px", 
     });
   });
   $("#item3").mouseleave(function () {
@@ -44,8 +38,6 @@ $(function () {
     $("#subItem4").slideDown().css({
       "text-align": "center",
       "font-size": "10px",
-      "background-color": "#f1ece8",
-      "border-radius": "10px",
     });
   });
   $("#item4").mouseleave(function () {
@@ -56,8 +48,6 @@ $(function () {
     $("#subItem5").slideDown().css({
       "text-align": "center",
       "font-size": "10px",
-      "background-color": "#f1ece8",
-      "border-radius": "10px",
     });
   });
   $("#item5").mouseleave(function () {
@@ -68,8 +58,6 @@ $(function () {
     $("#subItem6").slideDown().css({
       "text-align": "center",
       "font-size": "10px",
-      "background-color": "#f1ece8",
-      "border-radius": "10px",
     });
   });
   $("#item6").mouseleave(function () {
@@ -108,6 +96,5 @@ $(function () {
   $("#mobile-nav").click(function () {
     $(".wrapper").toggle(1000);
   });
-}); 
+});
 // ***< jQuery end >
-
