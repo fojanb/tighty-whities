@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-image: url("../images/pexels-julia-kuzenkov-1974521.jpg");
   background-size: cover;
@@ -125,6 +128,11 @@ body {
   font-size: 13px;
   font-weight: bold;
 }
+#subItem1 p:hover {
+  background-color: #e9eef1;
+  color: #61a5c2;
+  cursor: pointer;
+}
 #item1 a {
   color: #e9eef1;
 }
@@ -141,6 +149,11 @@ body {
   font-size: 13px;
   font-weight: bold;
 }
+#subItem2 p:hover {
+  background-color: #e9eef1;
+  color: #61a5c2;
+  cursor: pointer;
+}
 #item2 a {
   color: #e9eef1;
 }
@@ -156,7 +169,11 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: bold;
-
+}
+#subItem3 p:hover {
+  background-color: #e9eef1;
+  color: #61a5c2;
+  cursor: pointer;
 }
 #item3 a {
   color: #e9eef1;
@@ -174,6 +191,11 @@ body {
   font-size: 13px;
   font-weight: bold;
 }
+#subItem4 p:hover {
+  background-color: #e9eef1;
+  color: #61a5c2;
+  cursor: pointer;
+}
 #item4 a {
   color: #e9eef1;
 }
@@ -190,6 +212,11 @@ body {
   font-size: 13px;
   font-weight: bold;
 }
+#subItem5 p:hover {
+  background-color: #e9eef1;
+  color: #61a5c2;
+  cursor: pointer;
+}
 #item5 a {
   color: #e9eef1;
 }
@@ -205,6 +232,11 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: bold;
+}
+#subItem6 p:hover {
+  background-color: #e9eef1;
+  color: #61a5c2;
+  cursor: pointer;
 }
 #item6 a {
   color: #e9eef1;
@@ -228,7 +260,6 @@ body {
   color: black;
   background-color: #e9eef1;
   border-radius: 10px;
-
 }
 /* ------------sidebar--------------- */
 
@@ -324,7 +355,7 @@ ul ul a {
 .imgInCarousel {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .imagePlacedInCenter {
   border-radius: 10px;
@@ -393,8 +424,7 @@ ul ul a {
 #slide {
   position: absolute;
   left: -100%;
- 
-  
+
   -webkit-animation: slide 1s forwards;
   /* -webkit-animation-delay: 1s; */
   animation: slide 1s forwards;
@@ -406,5 +436,7 @@ ul ul a {
 } */
 
 @keyframes slide {
-  100% { left:80px; }
+  100% {
+    left: 80px;
+  }
 }
