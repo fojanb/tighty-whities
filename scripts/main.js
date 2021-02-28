@@ -64,12 +64,6 @@ $(function () {
     $("#subItem6").slideUp();
   });
 
-  //  Side bar:
-
-  // $("#sidebarCollapse").click(function () {
-  //   $(".wrapper").toggle();
-  // });
-
   // sticky nav-bar:
   // When the user scrolls the page, execute myFunction
   window.onscroll = function () {
