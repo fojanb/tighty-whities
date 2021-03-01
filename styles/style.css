@@ -440,3 +440,18 @@ ul ul a {
     left: 80px;
   }
 }
+
+#nav-bar-about{
+  display: grid;
+  width:85%;
+  margin: 0 auto;
+  grid-template-areas:
+    "main main main";
+  grid-gap: 0px;
+  padding: 50px;
+  text-align: left;
+}
+  #nav-bar-about > p {
+    font-size: 15px;
+
+  }
