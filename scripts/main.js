@@ -27,7 +27,7 @@ $(function () {
   $("#item3").mouseenter(function () {
     $("#subItem3").slideDown().css({
       "text-align": "center",
-      "font-size": "10px", 
+      "font-size": "10px",
     });
   });
   $("#item3").mouseleave(function () {
@@ -89,6 +89,14 @@ $(function () {
   $(".wrapper").hide();
   $("#mobile-nav").click(function () {
     $(".wrapper").toggle(1000);
+  });
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+      $("#nav-bar-about").fadeIn("slow").slideDown("4000");
+    } else {
+      $("#nav-bar-about").slideUp("4000");
+    }
   });
 });
 // ***< jQuery end >
