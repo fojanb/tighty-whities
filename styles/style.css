@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("../images/pexels-julia-kuzenkov-1974521.jpg");
+  background-image: url("../images/pexels-miguel-á-padriñán-19670.jpg");
   background-size: cover;
   font-family: "Jost", sans-serif;
   font-size: 1.6rem;
@@ -253,13 +253,10 @@ body {
   color: #f1ece8;
   background: transparent;
 }
-/* ------------footer--------------- */
-#footer {
-  font-size: 13px;
-  font-weight: bold;
-  color: black;
-  background-color: #e9eef1;
-  border-radius: 10px;
+/* ------------summer sale images--------------- */
+.summerSale > img:hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
 /* ------------sidebar--------------- */
 
@@ -340,8 +337,8 @@ a:focus {
   display: block;
 }
 #sidebar ul li a:hover {
-  color: #61a5c2;
-  background-color: #e9eef1;
+  color: #ffffff;
+  background-color: #6c757d;
 }
 
 #sidebar ul li > a,
@@ -388,7 +385,7 @@ ul ul a {
 
 .sideBarTitle > a:hover {
   color: #61a5c2;
-  background-color: #e9eef1;
+  cursor: pointer;
 }
 
 .side-nav {
@@ -457,8 +454,9 @@ ul ul a {
 /* ---------footer----------- */
 /* Main Footer */
 footer .main-footer {
+  margin-top: 300px;
   padding: 20px 0;
-  background: #e9eef1;
+  font-size: 13px;
   
 }
 footer ul {
@@ -468,6 +466,7 @@ footer ul {
 
 footer.light .main-footer {
   background: #f9f9f9;
+
 }
 
 ul.social-footer2 {
