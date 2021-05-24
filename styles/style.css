@@ -443,10 +443,10 @@ ul ul a {
 
 #nav-bar-about {
   display: grid;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   grid-template-areas: "main main main";
-  grid-gap: 0px;
+  grid-gap: 30px;
   padding: 50px;
   text-align: left;
 }
