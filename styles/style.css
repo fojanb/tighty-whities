@@ -9,6 +9,7 @@ html {
 body {
   background-image: url("../images/pexels-miguel-á-padriñán-19670.jpg");
   background-size: cover;
+  background-attachment: fixed;
   font-family: "Jost", sans-serif;
   font-size: 1.6rem;
   animation: fadeIn ease 1.5s;
