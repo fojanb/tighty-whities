@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  
 }
 body {
   background-image: url("../images/pexels-miguel-á-padriñán-19670.jpg");
@@ -13,7 +12,6 @@ body {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
- 
 }
 
 @keyframes fadeIn {
@@ -73,6 +71,7 @@ body {
 }
 .item4 {
   grid-area: right;
+  color: #6c757d;
 }
 .item5 {
   grid-area: footer;
@@ -91,7 +90,6 @@ body {
     "footer footer footer footer footer footer";
   grid-gap: 0px;
   padding: 0px;
-
 }
 .grid-container > div {
   /* background-color: rgba(255, 255, 255, 0.8); */
@@ -242,7 +240,7 @@ body {
   cursor: pointer;
 }
 #item6 a {
-  color:#6c757d;
+  color: #6c757d;
 }
 #item6 a:hover {
   cursor: pointer;
@@ -257,7 +255,7 @@ body {
   background: transparent;
 }
 /* ------------summer sale images--------------- */
-.summerSale > img:hover{
+.summerSale > img:hover {
   opacity: 0.5;
   cursor: pointer;
 }
@@ -407,6 +405,7 @@ ul ul a {
 .side-nav-text p {
   padding: 3rem;
   font-size: 15px;
+  color: #6c757d;
   transform: rotate(180deg);
 }
 .side-nav-icon {
@@ -452,6 +451,8 @@ ul ul a {
 }
 #nav-bar-about > p {
   font-size: 15px;
+  color: #535a61;
+
 }
 
 /* ---------footer----------- */
@@ -460,7 +461,6 @@ footer .main-footer {
   margin-top: 300px;
   padding: 20px 0;
   font-size: 13px;
-  
 }
 footer ul {
   padding-left: 0;
@@ -469,7 +469,6 @@ footer ul {
 
 footer.light .main-footer {
   background: #f9f9f9;
-
 }
 
 ul.social-footer2 {
@@ -508,7 +507,6 @@ ul.social-footer2 li a {
   -o-transition: all 250ms ease-in-out 0s;
   transition: all 250ms ease-in-out 0s;
 }
-#info{
+#info {
   font-size: 15px;
 }
-
