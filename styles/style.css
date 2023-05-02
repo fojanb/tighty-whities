@@ -72,6 +72,9 @@ body {
 .item4 {
   grid-area: right;
   color: #6c757d;
+  position: absolute;
+  top:0;
+  right: 0;
 }
 .item5 {
   grid-area: footer;
