@@ -1,5 +1,6 @@
-html {
+* {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 body {
   background-image: url("../images/pexels-miguel-á-padriñán-19670.jpg");
@@ -73,7 +74,7 @@ body {
   grid-area: right;
   color: #6c757d;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
 }
 .item5 {
@@ -95,7 +96,6 @@ body {
   padding: 0px;
 }
 .grid-container > div {
-  /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: center;
   padding: 0px;
   font-size: 30px;
