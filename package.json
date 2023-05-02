@@ -1,0 +1,23 @@
+{
+  "name": "tighty-whities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fojanb/tighty-whities.git"
+  },
+  "author": "Fojan Babaali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fojanb/tighty-whities/issues"
+  },
+  "homepage": "https://github.com/fojanb/tighty-whities#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
